@@ -18,8 +18,8 @@ public class PubSubConfig {
 
     @Bean
     public Queue autoDeleteQueue1() {
-        return new Queue("sub-1");
-//        return new AnonymousQueue();
+        return new Queue("sub-1"); // named queue will not be deleted
+//        return new AnonymousQueue(); // anonymous queue will be deleted on end of process
     }
 
     @Bean Queue autoDeleteQueue2() {

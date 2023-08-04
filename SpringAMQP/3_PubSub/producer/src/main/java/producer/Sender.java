@@ -27,15 +27,12 @@ public class Sender {
         if (dots.incrementAndGet() == 4) {
             dots.set(1);
         }
-
         for (int i = 0; i < dots.get(); i++) {
             builder.append('.');
         }
-
         builder.append(count.incrementAndGet());
         String message = builder.toString();
-
-        template.convertAndSend(fanout.getName(), message);
+        template.convertAndSend(fanout.getName(), "routingKey is ignored for fanout exchange.", message);
         System.out.println(" [x] Sent '" + message + "'");
     }
 }
