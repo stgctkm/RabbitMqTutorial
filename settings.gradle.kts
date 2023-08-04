@@ -12,4 +12,5 @@ include(
     "SpringAMQP:3_PubSub:producer", "SpringAMQP:3_PubSub:consumer",
     "SpringAMQP:4_Routing:producer", "SpringAMQP:4_Routing:consumer",
     "SpringAMQP:5_Topics:producer", "SpringAMQP:5_Topics:consumer",
+    "SpringAMQP:6_RPC:client", "SpringAMQP:6_RPC:server",
 )
