@@ -11,4 +11,5 @@ include(
     "SpringAMQP:2_WorkQueues:producer", "SpringAMQP:2_WorkQueues:consumer",
     "SpringAMQP:3_PubSub:producer", "SpringAMQP:3_PubSub:consumer",
     "SpringAMQP:4_Routing:producer", "SpringAMQP:4_Routing:consumer",
+    "SpringAMQP:5_Topics:producer", "SpringAMQP:5_Topics:consumer",
 )
