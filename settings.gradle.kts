@@ -7,5 +7,5 @@ include(
     "tutorial:4_Routing:producer", "tutorial:4_Routing:consumer",
     "tutorial:5_Topic:producer", "tutorial:5_Topic:consumer",
     "tutorial:6_RPC:client", "tutorial:6_RPC:server",
-    "SpringAMQP:1_HelloWorld:producer", "tutorial:1_HelloWorld:consumer",
+    "SpringAMQP:1_HelloWorld:producer", "SpringAMQP:1_HelloWorld:consumer",
 )
