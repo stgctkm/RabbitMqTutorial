@@ -9,4 +9,5 @@ include(
     "tutorial:6_RPC:client", "tutorial:6_RPC:server",
     "SpringAMQP:1_HelloWorld:producer", "SpringAMQP:1_HelloWorld:consumer",
     "SpringAMQP:2_WorkQueues:producer", "SpringAMQP:2_WorkQueues:consumer",
+    "SpringAMQP:3_PubSub:producer", "SpringAMQP:3_PubSub:consumer",
 )
